@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Switch,
   Route,
   Link,
@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div>
         <ul>
           <li>
@@ -33,7 +33,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
