@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/unir/static/css/main.b100e6da.chunk.css",
-    "main.js": "/unir/static/js/main.701517af.chunk.js",
-    "main.js.map": "/unir/static/js/main.701517af.chunk.js.map",
+    "main.js": "/unir/static/js/main.9b5e7faa.chunk.js",
+    "main.js.map": "/unir/static/js/main.9b5e7faa.chunk.js.map",
     "runtime-main.js": "/unir/static/js/runtime-main.d1f2c72a.js",
     "runtime-main.js.map": "/unir/static/js/runtime-main.d1f2c72a.js.map",
-    "static/js/2.9ca80956.chunk.js": "/unir/static/js/2.9ca80956.chunk.js",
-    "static/js/2.9ca80956.chunk.js.map": "/unir/static/js/2.9ca80956.chunk.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/unir/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.f69e3a1d.chunk.js": "/unir/static/js/2.f69e3a1d.chunk.js",
+    "static/js/2.f69e3a1d.chunk.js.map": "/unir/static/js/2.f69e3a1d.chunk.js.map",
     "index.html": "/unir/index.html",
-    "precache-manifest.d49e16bafcaf634bef333db75535e1ba.js": "/unir/precache-manifest.d49e16bafcaf634bef333db75535e1ba.js",
+    "precache-manifest.4f22635d9bbb23a99c5f178857283f94.js": "/unir/precache-manifest.4f22635d9bbb23a99c5f178857283f94.js",
     "service-worker.js": "/unir/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/unir/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/unir/static/media/logo.25bf045c.svg"
+    "static/css/2.b0bb7f2c.chunk.css.map": "/unir/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "/unir/static/css/main.b100e6da.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.d1f2c72a.js",
-    "static/js/2.9ca80956.chunk.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.f69e3a1d.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.701517af.chunk.js"
+    "static/js/main.9b5e7faa.chunk.js"
   ]
 }
