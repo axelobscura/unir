@@ -35,7 +35,7 @@ const ComputacionServidor = () => {
           <h3>Please select a topic.</h3>
         </Route>
         <Route path={`${path}/:topicId`}>
-          <Tema />
+          <Tema path={path} />
         </Route>
       </Switch>
     </div>
