@@ -20,3 +20,65 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Home {
+  height: 100vh;
+}
+
+.Home .row {
+  height: 100vh;
+}
+
+.Home .col-md-3.col-3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+ul.temas {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+  padding: 0;
+}
+
+ul.temas li {
+  flex-grow: 1;
+  text-align: center;
+  margin: 1px;
+}
+
+ul.temas li a {
+  background:#000000;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  color: #ffffff;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+ul.temas li a:hover {
+  background: red;
+  text-decoration: none;
+}
+
+
+.home {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+}
+
+.home h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}

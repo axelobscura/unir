@@ -7,88 +7,58 @@ import {
   useParams,
   useRouteMatch
 } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Menu from './Menu';
+import Home from './Materias/Home';
+import ComputacionServidor from './Materias/ComputacionServidor';
+import GestionSeguridad from './Materias/GestionSeguridad';
+import SeguridadSoftware from './Materias/SeguridadSoftware';
+import AulaInformacion from './Materias/AulaInformacion';
+import ComputacionCliente from './Materias/ComputacionCliente';
+import Metodologias from './Materias/Metodologias';
+
 import './App.css';
 
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/topics">Topics</Link>
-          </li>
-        </ul>
-
-        <hr />
-
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/topics">
-            <Topics />
-          </Route>
-        </Switch>
+        <Container fluid={true} className="p-0 Home">
+          <Row noGutters={true}>
+            <Col xs={3} md={3}>
+              <Menu />
+            </Col>
+            <Col xs={9} md={9} className="p-3">
+              <Switch>
+                <Route exact path="/">
+                  <Home />
+                </Route>
+                <Route path="/computacion-en-el-servidor-web">
+                  <ComputacionServidor />
+                </Route>
+                <Route path="/gestion-de-la-seguridad">
+                  <GestionSeguridad />
+                </Route>
+                <Route path="/seguridad-en-el-software">
+                  <SeguridadSoftware />
+                </Route>
+                <Route path="/aula-de-informacion-general">
+                  <AulaInformacion />
+                </Route>
+                <Route path="/computacion-en-el-cliente">
+                  <ComputacionCliente />
+                </Route>
+                <Route path="/metodologias">
+                  <Metodologias />
+                </Route>
+              </Switch>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </HashRouter>
-  );
-}
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function Topics() {
-  // The `path` lets us build <Route> paths that are
-  // relative to the parent route, while the `url` lets
-  // us build relative links.
-  let { path, url } = useRouteMatch();
-
-  return (
-    <div>
-      <h2>Topics</h2>
-      <ul>
-        <li>
-          <Link to={`${url}/rendering`}>Rendering with React</Link>
-        </li>
-        <li>
-          <Link to={`${url}/components`}>Components</Link>
-        </li>
-        <li>
-          <Link to={`${url}/props-v-state`}>Props v. State</Link>
-        </li>
-      </ul>
-
-      <Switch>
-        <Route exact path={path}>
-          <h3>Please select a topic.</h3>
-        </Route>
-        <Route path={`${path}/:topicId`}>
-          <Topic />
-        </Route>
-      </Switch>
-    </div>
-  );
-}
-
-function Topic() {
-  // The <Route> that rendered this component has a
-  // path of `/topics/:topicId`. The `:topicId` portion
-  // of the URL indicates a placeholder that we can
-  // get from `useParams()`.
-  let { topicId } = useParams();
-
-  return (
-    <div>
-      <h3>{topicId}</h3>
-    </div>
   );
 }
 
