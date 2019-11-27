@@ -2,16 +2,14 @@ import React from 'react';
 import {
   HashRouter,
   Switch,
-  Route,
-  Link,
-  useParams,
-  useRouteMatch
+  Route
 } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Menu from './Menu';
 import Home from './Materias/Home';
+import Footer from './Footer';
 import ComputacionServidor from './Materias/ComputacionServidor';
 import GestionSeguridad from './Materias/GestionSeguridad';
 import SeguridadSoftware from './Materias/SeguridadSoftware';
@@ -26,7 +24,7 @@ function App() {
     <HashRouter basename={process.env.PUBLIC_URL}>
       <div>
         <Container fluid={true} className="p-0 Home">
-          <Row noGutters={true}>
+          <Row noGutters={true} className="Contenidos">
             <Col xs={3} md={3}>
               <Menu />
             </Col>
@@ -55,6 +53,9 @@ function App() {
                 </Route>
               </Switch>
             </Col>
+          </Row>
+          <Row noGutters={true} className="Footer">
+            <Footer />
           </Row>
         </Container>
       </div>
