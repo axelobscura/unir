@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useToggle from './Hooks/useToggle';
 
-function Temaf() {
+function SimpleHook() {
   const [count, setCount] = useState(0);
   const [isHappy, toggleisHappy] = useToggle(true);
   const [isHeartBroken, toggleisHeartBroken] = useToggle(false);
@@ -18,4 +18,4 @@ function Temaf() {
   
 }
 
-export default Temaf;
+export default SimpleHook;

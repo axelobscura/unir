@@ -1,11 +1,15 @@
 import React from 'react';
-import Temaf from './Tema/TemaF';
+import SimpleHook from './Tema/SimpleHook';
+import SimpleFormHook from './Tema/SimpleFormHook';
+import SimpleFormInputHook from './Tema/SimpleFormInputHook';
 
 const AulaInformacion = () => {
   return (
     <div>
-      <Temaf />
       <h2>Aula de Información General</h2>
+      <SimpleHook />
+      <SimpleFormHook />
+      <SimpleFormInputHook />
     </div>
   );
 }
