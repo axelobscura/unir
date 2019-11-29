@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/unir/static/css/main.d6b1e93e.chunk.css",
-    "main.js": "/unir/static/js/main.e312c8bf.chunk.js",
-    "main.js.map": "/unir/static/js/main.e312c8bf.chunk.js.map",
+    "main.js": "/unir/static/js/main.fe6a4743.chunk.js",
+    "main.js.map": "/unir/static/js/main.fe6a4743.chunk.js.map",
     "runtime-main.js": "/unir/static/js/runtime-main.d1f2c72a.js",
     "runtime-main.js.map": "/unir/static/js/runtime-main.d1f2c72a.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/unir/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.4c541638.chunk.js": "/unir/static/js/2.4c541638.chunk.js",
-    "static/js/2.4c541638.chunk.js.map": "/unir/static/js/2.4c541638.chunk.js.map",
+    "static/js/2.09a219d9.chunk.js": "/unir/static/js/2.09a219d9.chunk.js",
+    "static/js/2.09a219d9.chunk.js.map": "/unir/static/js/2.09a219d9.chunk.js.map",
     "index.html": "/unir/index.html",
-    "precache-manifest.ff111f5e618bedf0295d5ea03eac2dce.js": "/unir/precache-manifest.ff111f5e618bedf0295d5ea03eac2dce.js",
+    "precache-manifest.e4c7c1d712a341acfbdd53034ddec297.js": "/unir/precache-manifest.e4c7c1d712a341acfbdd53034ddec297.js",
     "service-worker.js": "/unir/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/unir/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.d6b1e93e.chunk.css.map": "/unir/static/css/main.d6b1e93e.chunk.css.map"
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.d1f2c72a.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.4c541638.chunk.js",
+    "static/js/2.09a219d9.chunk.js",
     "static/css/main.d6b1e93e.chunk.css",
-    "static/js/main.e312c8bf.chunk.js"
+    "static/js/main.fe6a4743.chunk.js"
   ]
 }
