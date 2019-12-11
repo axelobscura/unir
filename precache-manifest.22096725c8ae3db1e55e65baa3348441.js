@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b497f5d71e011ca66d90fe1d4c34680",
+    "revision": "94f75080beb1ada29a936e189280e2ed",
     "url": "/unir/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unir/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "7cd1d28546b68aed4aeb",
+    "revision": "f808c175a336cee1629b",
     "url": "/unir/static/css/main.d6b1e93e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unir/static/js/2.9cb5d402.chunk.js"
   },
   {
-    "revision": "7cd1d28546b68aed4aeb",
-    "url": "/unir/static/js/main.b3d6cabc.chunk.js"
+    "revision": "f808c175a336cee1629b",
+    "url": "/unir/static/js/main.ad77234d.chunk.js"
   },
   {
     "revision": "4e98ee657e53fc59da85",
