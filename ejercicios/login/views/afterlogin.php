@@ -7,9 +7,7 @@
         </div>
         <div class="fadeIn first pb-3">
             <h2 class="text-center m-0 p-0">LOGIN DE USUARIOS</h2><br>
-            <?php
-                echo '<h2 class="text-center m-0 p-0 pb-1">'.$reslt.'</h2>';
-            ?>
+            <h1>BIENVENIDO!</h1>
             <hr>
             <a href="" class="btn btn-dark fadeIn fourth" style="color: #fff;">SALIR</a>
         </div>
